@@ -24,28 +24,10 @@ router.post("/", (request, response) => {
 });
 
 router.get("/:id", (request, response) => {
-
   const id = request.params.id;
-
-  const orders = database.get("orders");
-
-  //  if (order.accountId === id) {
-  //    console.log(id, "funkar");
-  //  }
-
+  const orders = database.get("orders").value();
   const foundOrders = orders.filter((order) => order.accountId === id);
-  
-  console.log(foundOrders)
-
-  // console.log(order.accountId === id
-  // console.log(orders)    orders.accountId === id
-  //   let filteredOrders = router.get('orders').filter({ id: accountId })
-
-  let result = {};
-  result.success = true;
-  result.foundOrder = foundOrders;
-  // result.filteredOrders = filteredOrders;
-  response.json(result, "hejhej");
+  response.send(foundOrders)
 })
 
 module.exports = router;
