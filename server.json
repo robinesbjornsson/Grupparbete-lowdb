@@ -1,0 +1,114 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "Bryggkaffe",
+      "desc": "Bryggd på månadens bönor.",
+      "price": 39
+    },
+    {
+      "id": 2,
+      "title": "Caffè Doppio",
+      "desc": "Bryggd på månadens bönor.",
+      "price": 49
+    },
+    {
+      "id": 3,
+      "title": "Cappuccino",
+      "desc": "Bryggd på månadens bönor.",
+      "price": 49
+    },
+    {
+      "id": 4,
+      "title": "Latte Macchiato",
+      "desc": "Bryggd på månadens bönor.",
+      "price": 49
+    },
+    {
+      "id": 5,
+      "title": "Kaffe Latte",
+      "desc": "Bryggd på månadens bönor.",
+      "price": 54
+    },
+    {
+      "id": 6,
+      "title": "Cortado",
+      "desc": "Bryggd på månadens bönor.",
+      "price": 39
+    }
+  ],
+  "orders": [
+    {
+      "ETA": 5,
+      "orderDesc": "Cortado UTAN MJÖLK",
+      "id": "ZcPO2CEJvqzUzV1bgbwk_"
+    },
+    {
+      "ETA": 5,
+      "orderDesc": "ESPRESSO UTAN KAFFE",
+      "id": "HnaG4ZuK2Xu8EvELs4dny"
+    },
+    {
+      "orderDesc": "KAFFE LATTE UTAN LATTE",
+      "id": "GWCzf9vbmUIkAtzEGpppg",
+      "ETA": 11
+    },
+    {
+      "orderDesc": "TRIPPLE ESPRESSO",
+      "id": "8ATOY8BV0p4sxgAmGnusi",
+      "ETA": "12 minutes"
+    },
+    {
+      "orderDesc": "ESPRESSO UTAN KAFFE LOL",
+      "id": "X_MHLvEk9bIVSkQJmwbBG",
+      "ETA": "10 minutes"
+    },
+    {
+      "orderDesc": "ESPRESSO UTAN ESPRESSO",
+      "accountId": "ZCE0RSci7R_3jCQKKx64A",
+      "id": "YT0OseDiiBXZ3PyU4y4t3",
+      "ETA": "6 minutes"
+    },
+    {
+      "orderDesc": "ESPRESSO UTAN ESPRESSO",
+      "accountId": "ZCE0RSci7R_3jCQKKx64A",
+      "id": "oQkN0k0a7bYprU3XnDR8F",
+      "ETA": "3 minutes"
+    },
+    {
+      "orderDesc": "ESPRESSO UTAN ESPRESSO",
+      "id": "Xg3gYMUH1eiXK5TRyLwJJ",
+      "ETA": "6 minutes"
+    },
+    {
+      "orderDesc": "BLÅTT KAFFE",
+      "accountId": "ZCE0RSci7R_3jCQKKx64A",
+      "id": "IUhPYWti6tmsKOpUp9D3z",
+      "ETA": "5 minutes"
+    },
+    {
+      "orderDesc": "RÖTT KAFFE",
+      "accountId": "ZCE0RSci7R_3jCQKKx64A",
+      "id": "fEQXa01iaKTUKxqcvCVRP",
+      "ETA": "6 minutes"
+    },
+    {
+      "orderDesc": "GRÖNT KAFFE",
+      "accountId": "HR9Zaq96k4Bz6Ciloe9tn",
+      "id": "uHA2lVlIuiE84g4u4dC92",
+      "ETA": "7 minutes"
+    }
+  ],
+  "accounts": [
+    {
+      "userName": "robinesbjornsson",
+      "passWord": "kaffepaus123",
+      "accountId": "HR9Zaq96k4Bz6Ciloe9tn"
+    },
+    {
+      "userName": "robinesbjornsson",
+      "passWord": "kaffepaus123",
+      "accountId": "ZCE0RSci7R_3jCQKKx64A"
+    }
+  ]
+}
