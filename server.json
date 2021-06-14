@@ -37,248 +37,47 @@
       "price": 39
     }
   ],
-  "orders": [
-    {
-      "ETA": 5,
-      "orderDesc": "Cortado UTAN MJÖLK",
-      "id": "ZcPO2CEJvqzUzV1bgbwk_"
-    },
-    {
-      "ETA": 5,
-      "orderDesc": "ESPRESSO UTAN KAFFE",
-      "id": "HnaG4ZuK2Xu8EvELs4dny"
-    },
-    {
-      "orderDesc": "KAFFE LATTE UTAN LATTE",
-      "id": "GWCzf9vbmUIkAtzEGpppg",
-      "ETA": 11
-    },
-    {
-      "orderDesc": "TRIPPLE ESPRESSO",
-      "id": "8ATOY8BV0p4sxgAmGnusi",
-      "ETA": "12 minutes"
-    },
-    {
-      "orderDesc": "ESPRESSO UTAN KAFFE LOL",
-      "id": "X_MHLvEk9bIVSkQJmwbBG",
-      "ETA": "10 minutes"
-    },
-    {
-      "orderDesc": "ESPRESSO UTAN ESPRESSO",
-      "accountId": "ZCE0RSci7R_3jCQKKx64A",
-      "id": "YT0OseDiiBXZ3PyU4y4t3",
-      "ETA": "6 minutes"
-    },
-    {
-      "orderDesc": "ESPRESSO UTAN ESPRESSO",
-      "accountId": "ZCE0RSci7R_3jCQKKx64A",
-      "id": "oQkN0k0a7bYprU3XnDR8F",
-      "ETA": "3 minutes"
-    },
-    {
-      "orderDesc": "ESPRESSO UTAN ESPRESSO",
-      "id": "Xg3gYMUH1eiXK5TRyLwJJ",
-      "ETA": "6 minutes"
-    },
-    {
-      "orderDesc": "BLÅTT KAFFE",
-      "accountId": "ZCE0RSci7R_3jCQKKx64A",
-      "id": "IUhPYWti6tmsKOpUp9D3z",
-      "ETA": "5 minutes"
-    },
-    {
-      "orderDesc": "RÖTT KAFFE",
-      "accountId": "ZCE0RSci7R_3jCQKKx64A",
-      "id": "fEQXa01iaKTUKxqcvCVRP",
-      "ETA": "6 minutes"
-    },
-    {
-      "orderDesc": "GRÖNT KAFFE",
-      "accountId": "HR9Zaq96k4Bz6Ciloe9tn",
-      "id": "uHA2lVlIuiE84g4u4dC92",
-      "ETA": "7 minutes"
-    },
-    {
-      "userName": "test",
-      "passWord": "test123",
-      "id": "k5gAMApwDgFf-1nZBjhce",
-      "ETA": "5 minutes"
-    },
-    {
-      "orderDesc": "test",
-      "id": "TXWuUEPb0b6ra2Rq0oq5W",
-      "ETA": "14 minutes"
-    },
-    {
-      "accountId": "ZCE0RSci7R_3jCQKKx64A",
-      "orderDesc": "test",
-      "id": "K7WsXDsFtsoetqlp1GmTH",
-      "ETA": "12 minutes"
-    },
-    {
-      "cart": [
-        {
-          "id": 1,
-          "title": "Bryggkaffe",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 39
-        },
-        {
-          "id": 2,
-          "title": "Caffè Doppio",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 49
-        },
-        {
-          "id": 3,
-          "title": "Cappuccino",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 49
-        }
-      ],
-      "id": "i1voGm_cDFh5s42hBkFLP",
-      "ETA": "11 minutes"
-    },
-    {
-      "cart": [
-        {
-          "id": 1,
-          "title": "Bryggkaffe",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 39
-        },
-        {
-          "id": 2,
-          "title": "Caffè Doppio",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 49
-        },
-        {
-          "id": 3,
-          "title": "Cappuccino",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 49
-        }
-      ],
-      "id": "HqS5JRCqhycjg9TOZnM9h",
-      "ETA": "10 minutes"
-    },
-    {
-      "cart": [
-        {
-          "id": 1,
-          "title": "Bryggkaffe",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 39
-        },
-        {
-          "id": 2,
-          "title": "Caffè Doppio",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 49
-        },
-        {
-          "id": 3,
-          "title": "Cappuccino",
-          "desc": "Bryggd på månadens bönor.",
-          "price": 49
-        }
-      ],
-      "id": "g3HvDZqvwAjBo5-1eId2a",
-      "ETA": "12 minutes"
-    },
-    {
-      "accountId": "ZCE0RSci7R_3jCQKKx64A",
-      "orderDesc": "test",
-      "id": "AduKpoADI9x4wfXdOGb61",
-      "ETA": "6 minutes"
-    }
-  ],
+  "orders": [],
   "accounts": [
     {
-      "userName": "robinesbjornsson",
-      "passWord": "kaffepaus123",
-      "accountId": "HR9Zaq96k4Bz6Ciloe9tn"
+      "id": "kBz34i9_qb_0ZhHlptOgr",
+      "userName": "dfghjklö",
+      "password": "dfghjklö"
     },
     {
-      "userName": "cathy",
-      "passWord": "12345678",
-      "accountId": "6z37mfRLBWl-vtSlmNnVZ"
+      "id": "jvXyRmSz92-p2L8HJ7UsK",
+      "userName": "dfghjklö",
+      "password": "dfghjklö"
     },
     {
-      "userName": "cathyy",
-      "passWord": "123456789",
-      "accountId": "gaX1OewQVFh9gFCddlr7n"
+      "id": "pKb7-TDkQWaw15JKIjFTP",
+      "userName": "dfghjklö",
+      "password": "dfghjklö"
     },
     {
+      "id": "O375mEbzMJAqtEuG95hem",
+      "userName": "dfghjklö",
+      "password": "dfghjklöfghj"
+    },
+    {
+      "id": "whDgfRTQkLwDVsWSzrPRA",
+      "userName": "",
+      "password": "asdfghjkllkjhg"
+    },
+    {
+      "id": "Zn9Z22RXsuWZVdOj6Cfyy",
+      "userName": "",
+      "password": "asdfghjkllkjhg"
+    },
+    {
+      "id": "JASzdC42KgnxNQdAgUm_p",
       "userName": "testt",
-      "passWord": "testtttt",
-      "accountId": "7fFnVpcC3ZWhK5XhAmRz0"
+      "password": "fghjklö"
     },
     {
-      "userName": "hhhhhhh",
-      "passWord": "hhhhhhh",
-      "accountId": "ItOXEGmGvRxFcsiXXK-Gl"
-    },
-    {
-      "userName": "jjjjjjjj",
-      "passWord": "jjjjjjjjj",
-      "accountId": "zVDknH9R0mBNeYUNKgT2k"
-    },
-    {
-      "userName": "mlmlaml",
-      "passWord": "nksnldsnl",
-      "accountId": "ARfglYAq_kcDpChFabTMB"
-    },
-    {
-      "userName": "fgjklö",
-      "passWord": "cfgvbhjnkml",
-      "accountId": "42J670z_mYtMZ1Jy0BJog"
-    },
-    {
-      "userName": "vgvgg",
-      "passWord": "mlmlmlä",
-      "accountId": "Ar1hjuSpE0oQ8R9kck4nJ"
-    },
-    {
-      "userName": "teeeeeest",
-      "passWord": "teeeeest",
-      "accountId": "nAJyURS2iJliVAGDM3Qjy"
-    },
-    {
-      "userName": "lllllllllllllll",
-      "passWord": "fghjklö",
-      "accountId": "9FPjU6pJqwdrK6Kt7AvCR"
-    },
-    {
-      "userName": "ööööööö",
-      "passWord": "ööööööö",
-      "accountId": "M9UTet-sZb3jvxQRB0oR1"
-    },
-    {
-      "userName": "hjklrf",
-      "passWord": "sdfghjklöä",
-      "accountId": "Di9PSK92QwXNxB5i8vg2e"
-    },
-    {
-      "userName": "mlömälm",
-      "passWord": "gfhjklöä",
-      "accountId": "0Wy-KoHAAW_jXccXSeOyl"
-    },
-    {
-      "userName": ",ö,ömööm",
-      "passWord": "njosnbcjblds",
-      "accountId": "di_EO1ujdjy0CMSG8hwf1"
-    },
-    {
-      "userName": "bjbkbk",
-      "passWord": "mlmllnö",
-      "accountId": "n20lPDwCDgiDVoLJSrILv"
-    },
-    {
-      "userName": "hähäh",
-      "passWord": "köksdöksö",
-      "accountId": "YElPnaDvWQldaJmoLd-C9"
+      "id": "yASo6ArU6R2nzFgJfs3md",
+      "userName": "bnm,",
+      "password": "nm,knlönö"
     }
   ]
 }

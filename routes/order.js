@@ -9,7 +9,7 @@ var randomMinute = require("random-minute");
 
 router.post("/", (request, response) => {
   const orderItem = request.body;
-  const orderMin = randomMinute({ min: 1, max:15  })
+  const orderMin = randomMinute({ min: 1, max: 15 })
   orderItem.id = nanoid();
   orderItem.ETA = `${orderMin} minutes`;
   console.log("order som läggs till", orderItem);
@@ -20,7 +20,7 @@ router.post("/", (request, response) => {
   result.success = true;
   result.orders = orders;
   response.json(result);
-  
+
 });
 
 router.get("/:id", (request, response) => {

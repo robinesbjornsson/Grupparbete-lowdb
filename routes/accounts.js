@@ -6,28 +6,32 @@ const FileSync = require("lowdb/adapters/FileSync");
 const adapter = new FileSync("server.json");
 const database = lowdb(adapter);
 
-
 router.post("/", (request, response) => {
-    const account = request.body;
-    account.accountId = nanoid();
-    console.log(
-      `Konto Skapat. Användarnamn: ${account.userName}, \n Lösenord: ${account.passWord}`
-    );
-    const accounts = database.get("accounts").push(account).write();
-    console.log(accounts);
+  const newAccount = {
+    id: nanoid(),
+    userName: request.body.userName,
+    password: request.body.password
+  }
 
-    let result = {};
-    
-    result.success = true;
-    result.accounts = accounts;
-    response.json(result);
+  database.get("accounts").push(newAccount).write();
+  console.log(
+    `Account created for user. Username: ${newAccount.userName}`
+  );
+
+  response.json(newAccount);
 });
 
-router.get("/", (req, res) => {
-
+router.get("/:accountId", (request, response) => {
+  const accountId = request.params.accountId;
   const accounts = database.get("accounts").value();
-  res.send(accounts)
-//  res.json(menu);
+  const foundAccount = accounts.find((account) => account.id === accountId);
+
+  response.send(foundAccount)
+});
+
+router.get("/", (request, response) => {
+  const accounts = database.get("accounts").value();
+  resquest.send(accounts)
 });
 
 module.exports = router;
