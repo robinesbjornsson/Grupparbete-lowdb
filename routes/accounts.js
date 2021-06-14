@@ -23,6 +23,11 @@ router.post("/", (request, response) => {
     response.json(result);
 });
 
+router.get("/", (req, res) => {
 
+  const accounts = database.get("accounts").value();
+  res.send(accounts)
+//  res.json(menu);
+});
 
 module.exports = router;
