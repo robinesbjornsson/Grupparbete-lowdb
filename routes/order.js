@@ -8,18 +8,19 @@ const database = lowdb(adapter);
 var randomMinute = require("random-minute");
 
 router.post("/", (request, response) => {
-  const orderItem = request.body;
-  const orderMin = randomMinute({ min: 1, max: 15 })
-  orderItem.id = nanoid();
-  orderItem.ETA = `${orderMin} minutes`;
-  console.log("order som läggs till", orderItem);
-  const orders = database.get("orders").push(orderItem).write();
-  console.log(orders);
 
-  let result = {};
-  result.success = true;
-  result.orders = orders;
-  response.json(result);
+  const newOrder = {
+    id: nanoid(10),
+    eta: randomMinute({ min: 1, max: 15 }),
+    order: request.body.cart,
+    userid: request.body.user
+  }
+  database.get("orders").push(newOrder).write();
+  console.log(
+    `new order created ${newOrder}`
+  );
+
+  response.json(newOrder);
 
 });
 
